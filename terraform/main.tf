@@ -95,14 +95,14 @@ module "sandbox3" {
 
 
 
-module "sandbox4" {
+module "sandbox5" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "jcheng+nsandbox4@natera.com"
-    AccountName               = "sandbox3"
+    AccountEmail              = "jcheng+nsandbox5@natera.com"
+    AccountName               = "sandbox5"
     ManagedOrganizationalUnit = "Sandbox"
-    SSOUserEmail              = "jcheng+nsandbox4@natera.com"
+    SSOUserEmail              = "jcheng+nsandbox5@natera.com"
     SSOUserFirstName          = "John"
     SSOUserLastName           = "Cheng"
   }
